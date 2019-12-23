@@ -29,7 +29,7 @@ const Selector = ({ data, handleSelector }) => {
               ))
             : data.populateWith.map(ele => (
                 <MenuItem value={ele.abbr} key={ele.abbr}>
-                  {eye.plural}
+                  {ele.plural}
                 </MenuItem>
               ))}
         </Select>

@@ -1,7 +1,7 @@
 import React from "react";
 import { TextField, InputAdornment, Grid } from "@material-ui/core";
 
-const InputFields = ({ data, handleInput }) => {
+const InputField = ({ data, handleInput }) => {
   return (
     <Grid item xs={6}>
       <TextField
@@ -21,4 +21,4 @@ const InputFields = ({ data, handleInput }) => {
   );
 };
 
-export default InputFields;
+export default InputField;
